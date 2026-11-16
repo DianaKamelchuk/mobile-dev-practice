@@ -1,0 +1,8 @@
+import 'package:pr03_dart_oop/pr03_dart_oop.dart';
+import 'package:test/test.dart';
+
+void main() {
+  test('calculate', () {
+    expect(calculate(), 42);
+  });
+}
